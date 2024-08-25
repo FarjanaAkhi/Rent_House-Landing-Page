@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
 
@@ -12,13 +17,27 @@
 
     <title>Document</title>
 </head>
-<body>
+<style>
+.manrope-font {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+
+</style>
+
+
+
+<body class="manrope-font">
   <header class="bg-green-50">
   <nav class="mx-10 my-10">
     <div class="navbar ">
         <div class="navbar-start">
          
-          <a class="btn btn-ghost text-xl font-bold"> <i class="fa-solid fa-arrow-up rotate-45 bg-lime-500 border rounded-full"></i>Rinterio</a>
+          <a class="btn btn-ghost text-xl font-bold"> <i class="fa-solid fa-arrow-up rotate-45 bg-lime-500 border w-8 h-8 p-1 rounded-full"></i>Rinterio</a>
         </div>
         <div class="navbar-center hidden lg:flex grow-0">
           <ul class="menu menu-horizontal px-1">
@@ -31,13 +50,13 @@
         </div>
        
         <div class="navbar-end gap-10">
-          <i class="fa-solid fa-magnifying-glass bg-white"></i>
+          <i class="fa-solid fa-magnifying-glass bg-white w-10 h-10 p-3 rounded-full"></i>
          
           
-          <i class="fa-solid fa-cart-shopping bg-white"></i>
+          <i class="fa-solid fa-cart-shopping bg-white w-10 h-10 p-3 rounded-full"></i>
 
 
-          <a class="btn bg-lime-500">Book Consult  <i class="fa-solid fa-arrow-up rotate-45 bg-lime-500 border rounded-full"></i>  </a>
+          <a class="btn bg-lime-500 rounded-xl">Book Consult  <i class="fa-solid fa-arrow-up rotate-45 w-8 h-8 p-2 bg-black  b text-white rounded-full"></i>  </a>
         </div>
       </div>
   </nav>
@@ -178,9 +197,68 @@ modern sophistication, featuring weathered wood, sleek metal accents.
        
 
 <!-- portfolio part -->
+<div class=" space-y-3 h-screen p-11">
+
+  <div class="text-center">
+<button class="btn">  <i class="fa-solid fa-arrow-up rotate-90"></i>Explore our latest work</button>
+<h1 class="font-black text-3xl p-5">OUR LATEST PORTFOLIO</h1>
+<p1 >  The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p1>
+
+</div>
 
 
-       
+<div class="grid grid-cols-4 grid-rows-2 border border-red-500 gap-5 container p-10 mx-auto   ">
+<div class="col-span-3">
+  <div class=" flex flex-row  border rounded-2xl border-slate-200  w-auto h-auto p-5 space-x-10">
+  
+    <div class=" ">
+  <img src="./assets/img1.png">
+</div>
+
+<div class="flex flex-col space-y-2 w-1/2">
+  <h1 class="font-bold text-xl">Commercial</h1>
+  <p1>The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p1>
+  <div><button class="mt-2 font-black">View Details <i class="fa-solid fa-arrow-up rotate-45  bg-lime-500 border w-8 h-8 p-2 rounded-full"></i> </button></div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="  border rounded-2xl  border-slate-200   p-5 w-80 h-56">
+  <img  class="w-full h-full"  src="./assets/img2.png" alt="">
+</div>
+
+<div class="border rounded-2xl border-slate-200  p-5 w-70 h-56 ">
+<img  class=""   src="./assets/img3.png" alt="">
+
+</div>
+
+<div class=" border rounded-2xl border-slate-200 col-span-2 p-5 space-x-7 ">
+ 
+  <div class="flex flex-row space-x-3">
+  <div class="w-1/2">
+    <img src="./assets/img4.png" alt="">
+  </div>
+    <div class="flex flex-col w-1/2 space-y-2">
+  <h1 class="font-bold text-xl">Commercial</h1>
+  <p1>The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p1>
+ <div> <button class="font-black">View Details <i class="fa-solid fa-arrow-up rotate-45  bg-lime-500 border w-8 h-8 p-2 rounded-full"></i> </button></div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="border rounded-2xl border-slate-200  p-5 w-80 h-56">
+  <img class="w-full h-full" src="./assets/img5.png" alt="">
+</div>
+
+
+
+</div>
 
 
    
